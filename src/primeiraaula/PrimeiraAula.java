@@ -13,6 +13,8 @@ public class PrimeiraAula {
         System.out.println("Oi "+ nome + " você tem " + qualIdade(1997) +" anos de idade");
         
         //ESTRUTURA DE CONTROLE
+        
+        
         if(qualIdade(dataNascimento) >= 18){
             System.out.println(" Você é maior de idade, pode ser preso!");
         }else {
