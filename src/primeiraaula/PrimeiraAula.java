@@ -9,12 +9,11 @@ public class PrimeiraAula {
         double altura = 1.76;        
         boolean eProfessor = true;  
         char genero = 'M';
+        char genero2 = 'F';
         
         System.out.println("Oi "+ nome + " você tem " + qualIdade(1997) +" anos de idade");
         
         //ESTRUTURA DE CONTROLE
-        
-        
         if(qualIdade(dataNascimento) >= 18){
             System.out.println(" Você é maior de idade, pode ser preso!");
         }else {
